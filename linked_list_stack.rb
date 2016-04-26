@@ -1,3 +1,4 @@
+# Create a Stack class using a Linked List
 class LinkedListNode
   attr_accessor :value, :next_node
 
@@ -39,9 +40,3 @@ class Stack
     @data == nil
   end
 end
-
-node1 = LinkedListNode.new(44)
-node2 = LinkedListNode.new(38, node1)
-node3 = LinkedListNode.new(12, node2)
-
-stack = Stack.new

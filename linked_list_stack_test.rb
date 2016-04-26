@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative 'linked_list_stack'
 
-class StackTest < Minitest::Unit::TestCase
+class LinkedListStackTest < Minitest::Unit::TestCase
   def test_stack_methods
     node1 = LinkedListNode.new(44)
     node2 = LinkedListNode.new(38, node1)
