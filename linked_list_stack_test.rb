@@ -11,6 +11,7 @@ class LinkedListStackTest < Minitest::Unit::TestCase
     stack.push(node2)
     stack.push(node3)
     assert_equal print_values(node3), print_values(stack.pop)
+    assert_equal print_values(node2), print_values(stack.peek)
     assert_equal print_values(node2), print_values(stack.pop)
     assert_equal print_values(node1), print_values(stack.pop)
     assert_equal true, stack.empty?

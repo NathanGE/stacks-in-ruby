@@ -39,4 +39,8 @@ class Stack
   def empty?
     @data == nil
   end
+
+  def peek
+    @data
+  end
 end
